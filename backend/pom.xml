@@ -11,10 +11,9 @@
 	<description>The ng2boot backend project</description>
 
 	<parent>
-		<groupId>org.springframework.boot</groupId>
-		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>1.5.3.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+			<groupId>com.jdriven.ng2boot</groupId>
+			<artifactId>parent</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
 	<!-- properties>

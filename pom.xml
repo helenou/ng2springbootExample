@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>com.jdriven.ng2boot</groupId>
-	<artifactId>ng2boot</artifactId>
+	<artifactId>parent</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
@@ -45,16 +45,10 @@
 			</plugin>
 		</plugins>
 	</build -->
-	<resources>
-	      <resource>
-	          <directory>target/frontend</directory>
-						<targetPath>static</targetPath>
-	      </resource>
-	</resources>
+
 	<modules>
 			<module>frontend</module>
 			<module>backend</module>
 	</modules>
-
 
 </project>
